@@ -1,0 +1,136 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ff0000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar img {
+    width: 50px; 
+    height: auto;
+    margin-right: 20px; 
+}
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.content {
+    background-image: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+}
+
+.content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    z-index: -1;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Flexbox Container styles */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Background image styles */
+.bg-image1 {
+    background-image: url('images/bg1.jpg');
+}
+
+.bg-image2 {
+    background-image: url('images/bg2.jpg');
+}
+
+.bg-image3 {
+    background-image: url('images/bg3.jpg');
+}
+
+/* Paragraphs styles */
+.paragraphs {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.paragraphs p {
+    margin-bottom: 15px;
+}
+
+/* External Links styles */
+.external-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.external-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 15px;
+    background-color: #0a2cc7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.external-links a:hover {
+    background-color: #ffcc00;
+}
