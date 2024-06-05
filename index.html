@@ -3,92 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest updates, news, and events about Manchester United.">
     <title>Manchester United</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <img src="images/manutd_logo.png" alt="Manchester United Logo">
-        <h6 class="glory">Red Devils</h6>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="squad.html">Squad</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="external.html">External</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div class="hero">
-            <h1>Welcome to Manchester United</h1>
-            <p>Latest updates, news, and events about Manchester United.</p>
+    <header>
+        <nav class="navbar">
+            <img src="images/manutd_logo.png" alt="Manchester United Logo">
+            <h6 class="glory">Red Devils</h6>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="squad.html">Squad</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="external.html">External</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="hero">
+                <h1>Welcome to Manchester United</h1>
+                <p>Latest updates, news, and events about Manchester United.</p>
+            </div>
+            <div class="flex-container">
+                <!-- Flexbox 1 -->
+                <div class="flex-item news-bg">
+                    <div class="paragraphs">
+                        <p>
+                            <b>Latest news updates about the club.</b> As of June 2024, Manchester United has been active in both transfer markets and on the pitch, with significant developments affecting the club's immediate future. The club's management has been working tirelessly to secure new signings while also managing departures from the squad. With the new season approaching, fans are eager to see how these changes will impact the team's performance on the field. Stay updated with the latest news from reputable sources:
+                            <button id="details-button">Details</button>
+                            <nav class="small-navbar">
+                                <ul>
+                                    <li><a href="https://www.goal.com/en-in/team/manchester-united/6eqit8ye8aomdsrrq0hk3v7gh">Goal.com</a></li>
+                                    <li><a href="https://www.skysports.com/manchester-united-news">Sky Sports</a></li>
+                                    <li><a href="https://www.bbc.com/sport/football/teams/manchester-united">BBC Sport</a></li>
+                                </ul>
+                            </nav>
+                        </p>
+                    </div>
+                    <div class="image-section">
+                        <img src="images/playersold.jpg" alt="News Image 1">
+                    </div>
+                </div>
+                <!-- Flexbox 2 -->
+                <div class="flex-item bg-image1">
+                    <div class="paragraphs">
+                        <h1>Departures and Arrivals:</h1>
+                        <p>
+                            Several players have left United, including Phil Jones, whose contract ended, and loanees like Marcel Sabitzer and Wout Weghorst returning to their parent clubs. On the incoming side, United sees the return of Alex Telles and Eric Bailly from loan spells, which could impact the squad depth. The transfer window has been a busy time for the club, with negotiations ongoing to secure additional reinforcements before the start of the new season.
+                            (<a href="https://www.skysports.com/football/news/11095/12900048/manchester-united-transfer-news-and-rumours-harry-maguire-altay-bayindir-sofyan-amrabat-latest">Sky Sports</a>).
+                        </p>
+                    </div>
+                    <div class="image-section">
+                        <img src="images/poster1.jpg" alt="News Image 2">
+                    </div>
+                </div>
+                <!-- Flexbox 3 -->
+                <div class="flex-item bg-image2">
+                    <div class="paragraphs">
+                        <h1>Transfers and Rumors:</h1>
+                        <p>
+                            Manchester United is reportedly exploring a high-profile move for Neymar, which could be one of the blockbuster deals of the summer. However, the club is considering a loan arrangement rather than a permanent transfer to mitigate financial risks. Alongside this, United has shown interest in Chelsea midfielder Mason Mount. Mount's potential transfer is significant as he could strengthen United's midfield, which already includes key players like Casemiro and Christian Eriksen. The negotiations with Neymar's representatives are ongoing, with both parties optimistic about reaching an agreement. Meanwhile, the talks with Chelsea regarding Mason Mount are in the initial stages, with United keen on securing the services of the talented midfielder to bolster their squad depth.
+                            (<a href="https://www.independent.co.uk/sport/football/manchester-united-neymar-loan-transfer-news-b2349901.html">Independent</a>, 
+                            <a href="https://www.skysports.com/football/news/11095/12900048/manchester-united-transfer-news-and-rumours-harry-maguire-altay-bayindir-sofyan-amrabat-latest">Sky Sports</a>).
+                        </p>
+                    </div>
+                    <div class="video-section">
+                        <!-- YouTube video embedded -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EitKWlS1MEc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Flexbox 4 -->
+                <div class="flex-item bg-image3">
+                    <div class="paragraphs">
+                        <h1>Achievements and Competitions:</h1>
+                        <p>
+                            Manchester United qualified for the 2024/25 Europa League by winning the FA Cup, defeating Manchester City 2-1 in a thrilling final. Goals from Alejandro Garnacho and Kobbie Mainoo secured the victory, ensuring United finished the season with silverware. This win is particularly sweet as it comes against their local rivals, cementing a successful campaign under Erik ten Hag's management. Furthermore, United's success in the FA Cup adds to their rich history of domestic achievements, solidifying their status as one of England's most successful football clubs. The victory also serves as a testament to the team's resilience and determination, overcoming tough opponents to claim the prestigious trophy.
+                            (<a href="https://notjustok.com/sports/manchester-united-qualify-for-2024-25-europa-league/">Notjustok</a>).
+                        </p>
+                    </div>
+                    <div class="video-section">
+                        <!-- YouTube video embedded -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tbGhAwdQxSw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Flexbox Containers -->
-        <div class="flex-container">
-            <!-- Flexbox 1 -->
-            <div class="flex-item news-bg">
-                <div class="paragraphs">
-                    <p>
-                        <b>Latest news updates about the club.</b> As of June 2024, Manchester United has been active in both transfer markets and on the pitch, with significant developments affecting the club's immediate future. The club's management has been working tirelessly to secure new signings while also managing departures from the squad. With the new season approaching, fans are eager to see how these changes will impact the team's performance on the field. Stay updated with the latest news from reputable sources:
-                        <button id="details-button">Details</button>
-                        <nav class="small-navbar">
-                            <ul>
-                                <li><a href="https://www.goal.com/en-in/team/manchester-united/6eqit8ye8aomdsrrq0hk3v7gh">Goal.com</a></li>
-                                <li><a href="https://www.skysports.com/manchester-united-news">Sky Sports</a></li>
-                                <li><a href="https://www.bbc.com/sport/football/teams/manchester-united">BBC Sport</a></li>
-                            </ul>
-                        </nav>
-                    </p>
-                </div>
-                <div class="image-section">
-                    <img src="images/playersold.jpg" alt="News Image 1">
-                </div>
-            </div>
-
-            <!-- Flexbox 2 -->
-            <div class="flex-item bg-image1">
-                <div class="paragraphs">
-                    <p>
-                        <h1>Departures and Arrivals:</h1> Several players have left United, including Phil Jones, whose contract ended, and loanees like Marcel Sabitzer and Wout Weghorst returning to their parent clubs. On the incoming side, United sees the return of Alex Telles and Eric Bailly from loan spells, which could impact the squad depth. The transfer window has been a busy time for the club, with negotiations ongoing to secure additional reinforcements before the start of the new season.
-                        (<a href="https://www.skysports.com/football/news/11095/12900048/manchester-united-transfer-news-and-rumours-harry-maguire-altay-bayindir-sofyan-amrabat-latest">Sky Sports</a>).
-                    </p>
-                </div>
-                <div class="image-section">
-                    <img src="images/poster1.jpg" alt="News Image 2">
-                </div>
-            </div>
-                        <!-- Flexbox 3 -->
-            <div class="flex-item bg-image2">
-                <div class="paragraphs">
-                    <p>
-                        <h1>Transfers and Rumors:</h1> Manchester United is reportedly exploring a high-profile move for Neymar, which could be one of the blockbuster deals of the summer. However, the club is considering a loan arrangement rather than a permanent transfer to mitigate financial risks. Alongside this, United has shown interest in Chelsea midfielder Mason Mount. Mount's potential transfer is significant as he could strengthen United's midfield, which already includes key players like Casemiro and Christian Eriksen. The negotiations with Neymar's representatives are ongoing, with both parties optimistic about reaching an agreement. Meanwhile, the talks with Chelsea regarding Mason Mount are in the initial stages, with United keen on securing the services of the talented midfielder to bolster their squad depth.
-                        (<a href="https://www.independent.co.uk/sport/football/manchester-united-neymar-loan-transfer-news-b2349901.html">Independent</a>, 
-                        <a href="https://www.skysports.com/football/news/11095/12900048/manchester-united-transfer-news-and-rumours-harry-maguire-altay-bayindir-sofyan-amrabat-latest">Sky Sports</a>).
-                    </p>
-                </div>
-                <div class="video-section">
-                    <!-- YouTube video embedded -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EitKWlS1MEc" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Flexbox 4 -->
-            <div class="flex-item bg-image3">
-                <div class="paragraphs">
-                    <p>
-                        <h1>Achievements and Competitions:</h1> Manchester United qualified for the 2024/25 Europa League by winning the FA Cup, defeating Manchester City 2-1 in a thrilling final. Goals from Alejandro Garnacho and Kobbie Mainoo secured the victory, ensuring United finished the season with silverware. This win is particularly sweet as it comes against their local rivals, cementing a successful campaign under Erik ten Hag's management. Furthermore, United's success in the FA Cup adds to their rich history of domestic achievements, solidifying their status as one of England's most successful football clubs. The victory also serves as a testament to the team's resilience and determination, overcoming tough opponents to claim the prestigious trophy.
-                        (<a href="https://notjustok.com/sports/manchester-united-qualify-for-2024-25-europa-league/">Notjustok</a>).
-                    </p>
-                </div>
-                <div class="video-section">
-                    <!-- YouTube video embedded -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tbGhAwdQxSw" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-
-
+    </main>
+    <footer>
         <div class="footer">
             <div class="about-us">
                 <h2>About Us</h2>
@@ -105,6 +111,6 @@
                 <p>&copy; 2024 Manchester United. All rights reserved.</p>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
