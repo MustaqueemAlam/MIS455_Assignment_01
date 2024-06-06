@@ -4,43 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manchester United - News</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="squad.html">Squad</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="external.html">External</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <img src="images/manutd_logo.png" alt="Manchester United Logo" class="logo">
+            <h6 class="glory">Red Devils</h6>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="squad.html">Squad</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="external.html">External</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Main Content -->
     <div class="content">
-        <h1>Latest News</h1>
-        <p>Stay updated with the latest news about Manchester United.</p>
-        <div class="image-container">
-            <img src="images/image9.jpg" alt="Image 9">
-            <img src="images/image10.jpg" alt="Image 10">
-            <img src="images/image11.jpg" alt="Image 11">
-            <img src="images/image12.jpg" alt="Image 12">
+        <div class="trending-now">
+            <h1>Trending Now</h1>
+            <marquee>Manchester United signs new striker!               |           Pogba out for the season!                   |   TenHag future at risk   |                Rashford scores a hat-trick!</marquee>
+        </div>  
+
+        <div class="video-player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NXWUXFDJmHc" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="paragraphs">
-            <p>Paragraph 1: Breaking news related to the club.</p>
-            <p>Paragraph 2: Match previews and analysis.</p>
-            <p>Paragraph 3: Player interviews and press conferences.</p>
-            <p>Paragraph 4: Transfer rumors and speculations.</p>
-        </div>
-        <!-- External Links -->
-        <div class="external-links">
-            <a href="https://example.com">Link 1</a>
-            <a href="https://example.com">Link 2</a>
-            <a href="https://example.com">Link 3</a>
-            <a href="https://example.com">Link 4</a>
+        <div class="weekly-top-news">
+            <h2>Weekly Top News</h2>
+            <div class="top-news-grid">
+                <div class="top-news-item">
+                    <a href="https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts">
+                        <img src="images/topnews1.jpg" alt="Top News">
+                        <div class="news-details">
+                            <h3>Upcoming Transfer window</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="top-news-item">
+                    <a href="https://www.skysports.com/football/news/11095/13143930/what-s-next-for-manchester-united-and-erik-ten-hag-the-key-questions-answered">
+                        <img src="images/topnews2.jpg" alt="Top News">
+                        <div class="news-details">
+                            <h3>Ten Hag's Future</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="top-news-item">
+                    <a href="https://www.goal.com/en/lists/man-utd-crunch-decision-alejandro-garnacho-paris-olympics-request-argentina/blt8cbb42ac0d8e1b5f">
+                        <img src="images/topnews3.jpg" alt="Top News">
+                        <div class="news-details">
+                            <h3>A. Garnacho and upcoming transfers</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+    <footer>
+        <div class="footer">
+            <div class="about-us">
+                <h2>About Us</h2>
+                <p>Manchester United is a professional football club based in Manchester, England. Founded in 1878, the club has a rich history and is one of the most successful in English football.</p>
+            </div>
+            <div class="sponsors">
+                <img src="images/teamviewer.png" alt="Sponsor 1">
+                <img src="images/addidas.png" alt="Sponsor 2">
+                <img src="images/epl.png" alt="Sponsor 3">
+                <img src="images/hineken.png" alt="Sponsor 4">
+                <img src="images/cannon.png" alt="Sponsor 5">
+            </div>
+            <div class="rights-reserved">
+                <p>&copy; 2024 Manchester United. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
