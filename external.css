@@ -38,7 +38,7 @@ body {
     background-image: url('images/bg.jpg'); 
     background-size: cover;
     background-attachment: fixed;
-    color: #000dff;
+    color: #000000;
     font-size: medium;
     overflow-y: scroll;
 }
@@ -418,7 +418,7 @@ button:hover::before {
 
 .main-content {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color:burlywood;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
